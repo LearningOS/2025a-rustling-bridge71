@@ -9,7 +9,7 @@ fn main() {
     // for x in option {
     //     res += x;
     // }
-    while let Some(x) = option {
+    if let Some(x) = option {
         res += x;
     }
     println!("{}", res);
